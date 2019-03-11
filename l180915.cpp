@@ -278,6 +278,7 @@ bankAccount** readFile(string filePath,int & ArrSize){
 
 		delete[] TempTrans;
 	}
+	file.close();
 	return Arr;
 }
 
